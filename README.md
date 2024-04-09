@@ -77,7 +77,7 @@ your_folder/defuse.sh
 ```
 
 ## Installing additional official packages
-Mount the installation media, and open "프로그람 ... 밎 삭제". It should prompt you the location of the media
+Mount the installation media, and open "Software Ma,ager" or "프로그람 ... 밎 삭제". It should prompt you the location of the media
 (most likely `/media/[media-name]`), click on it.
 Then, you'll have a long list of apps you can add such
 as games, Flash Player, or even a programming IDE.
