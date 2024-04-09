@@ -77,6 +77,12 @@ chmod +x your_folder/defuse.sh
 your_folder/defuse.sh
 ```
 
+## Enabling sudo
+Run as root 
+```sh
+usermod -aG wheel [username]
+```
+
 ## Installing additional official packages
 Mount the installation media, and open "Software Ma,ager" or «프로그람 ... 밎 삭제». It should prompt you the location of the media
 (most likely `/media/[media-name]`), click on it.
