@@ -6,6 +6,7 @@
 1. Enabling internet
 1. 내나라 (NèNala/My Country) in english
 1. Removing the antivirus & spyware
+1. Installing additional official packages
 1. Enabling other repositories
 1. Downloading RPM by hands
 1. Updating kernel
@@ -74,6 +75,15 @@ button, "Download ZIP" if you don't know how to use git).
 chmod +x your_folder/defuse.sh
 your_folder/defuse.sh
 ```
+
+## Installing additional official packages
+Mount the installation media, and open "프로그람 ... 밎 삭제". It should prompt you the location of the media
+(most likely `/media/[media-name]`), click on it.
+Then, you'll have a long list of apps you can add such
+as games, Flash Player, or even a programming IDE.
+Just check what you want ot install. You can uncheck
+something to uninstall it.
+
 ## Enabling other repositories
 ## Downloading RPM by hands
 Go and download what you need there. Fedora 8 is used as RedStar is quite old.
