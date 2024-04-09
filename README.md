@@ -66,7 +66,7 @@ To disable it, follow these instructions:
 You're done.
 
 ## Removing the antivirus & spyware
-1. Download on another computer the code [here](https://github.com/takeshixx/redstar§tools/tree/master) (Code 
+1. Download on another computer the code [here](https://github.com/takeshixx/redstar-tools/tree/master) (Code 
 button, "Download ZIP" if you don't know how to use git).
 1. Bring the files to RedStar, and open a terminal.
 1. Switch to root (`su` command).
