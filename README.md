@@ -10,6 +10,7 @@
 1. Enabling other repositories
 1. Downloading RPM by hands
 1. Updating kernel
+1. Installing another old version of Firefox
 1. Softwares
 	- File Manager
 	- Sogwang Office
@@ -117,6 +118,19 @@ Replace the `kernel` parameter with the location of the `vmlinuz` file. (It shou
 Replace the initrd parameter with the location of the `initramfs` file we generated earlier (It should also be in `/boot`).
 
 Now, simply reboot (using the `reboot` command for instance).
+
+## Installing another old version of Firefox
+I could only launch up to [Firefox 9.0](https://ftp.mozilla.org/pub/firefox/releases/9.0/linux-i686/)
+(although, lowest I tested above 9.0 was 29.0), because
+other version would give me a GTK error.
+
+I went on the [official Mozilla public repository](https://ftp.mozilla.org/pub/firefox/releases/), chose the Firefox version, and chose `linux-i686`.
+I then extracted it and directly launched the executable.
+
+**WARNING: Putting it in /usr/bin WILL erase 내나라!**
+
+Firefox 9.0 has (mostly) proper SSL certificates, and it supports HTTPS. It sure is a more pleasant
+use of the internet than the outdated 내나라.
 
 ## Softwares
 ### File Manager - KFinder
