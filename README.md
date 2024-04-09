@@ -16,14 +16,14 @@
 	- NaeNara
 	- KDE3
 ## Open the terminal
-1. Click on the Application folder on the right of the Dock (aside of the bin) "응용프로그람".
-1. Click on the folder without any icon ("AppLink", or "고전형프로그람").
-1. Click on the folder with a hammer and a wrench ("보조프로그람").
-1. Click on the Terminal. ("Konsole", or "조작탁").
+1. Click on the Application folder on the right of the Dock (aside of the bin) «응용프로그람».
+1. Click on the folder without any icon ("AppLink", or «고전형프로그람»).
+1. Click on the folder with a hammer and a wrench («보조프로그람»).
+1. Click on the Terminal. ("Konsole", or «조작탁»).
 ## Set keyboard localization
-1. Launch the app called "System Settings", or "체계환경설정".
-1. Click on "International", or "다국어" (should be on the upper-left).
-1. Click on the second tab: "keyboard localiazation", or "다국어입력".
+1. Launch the app called "System Settings", or «체계환경설정».
+1. Click on "International", or «다국어» (should be on the upper-left).
+1. Click on the second tab: "keyboard localiazation", or «다국어입력».
 1. Click on the localization you want.
 WARNING: there might be inconsistencies, and the localization might not exactly follow yours.
 
@@ -42,7 +42,7 @@ sed -i 's/ko_KP/en_US/g' /etc/sysconfig/i18n /usr/share/config/kdeglobals && reb
 ```
 **WARNING:** The system will not be compatible with any other language.
 ## Enabling internet
-By default, RedStar is configured to take advantage of DPRK's intranet "광명".
+By default, RedStar is configured to take advantage of DPRK's intranet «광명».
 Since we have no access whatsoever to it, let's allow the use of regular internet:
 1. Open the terminal
 1. Switch to root (`su` command).
@@ -57,11 +57,11 @@ most websites won't work.
 내나라 is the default (and only) web browser. It is a modified version of Firefox 3.5/3.6.
 However, it has a few additions, such as an extensions to edit its language.
 To disable it, follow these instructions:
-1. Open 내나라 (the Earth icon).
-1. Click on 도구 (second menu from the right, on the bar at the top).
-1. Click on 부가기능 (third option).
+1. Open «내나라» (the Earth icon).
+1. Click on «도구» (second menu from the right, on the bar at the top).
+1. Click on «부가기능» (third option).
 1. In the window that just opened, click on 언어 (second tab from the right).
-1. Press the button under the only language pack ("사용합").
+1. Press the button under the only language pack («사용합»).
 1. A yellow warning should tell you that you will need to reboot in korean. Press the button.
 You're done.
 
@@ -77,7 +77,7 @@ your_folder/defuse.sh
 ```
 
 ## Installing additional official packages
-Mount the installation media, and open "Software Ma,ager" or "프로그람 ... 밎 삭제". It should prompt you the location of the media
+Mount the installation media, and open "Software Ma,ager" or «프로그람 ... 밎 삭제». It should prompt you the location of the media
 (most likely `/media/[media-name]`), click on it.
 Then, you'll have a long list of apps you can add such
 as games, Flash Player, or even a programming IDE.
