@@ -175,3 +175,10 @@ You may see a lot of stuff such as development IDE, or compilers like GCC.
 ### 서광사무처리 - Sogwang Office
 Based on OpenOffice 3.0, the icons are from Microsoft Office 2003.
 This is the best place to notice the fonts "KP ...". These are standard DPRK fonts used everywhere.
+
+# Credit
+- [@cursedastronaut](https://github.com/cursedastronaut/) for everything you haven't seen elsewhere.
+- [RichardG's Rambling](https://richardg867.wordpress.com/) for his two articles guiding beginners through the operating system
+	1.	[Article 1](https://richardg867.wordpress.com/2015/01/01/notes-on-red-star-os-3-0/)
+	2.	[Article 2](https://richardg867.wordpress.com/2020/03/31/more-notes-on-red-star-os-3-0/)
+- [@takeshixx](https://github.com/takeshixx/) for the [redstar-tools](https://github.com/takeshixx/redstar-tools/tree/master).
