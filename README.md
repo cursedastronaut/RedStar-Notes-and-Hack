@@ -6,6 +6,7 @@
 1. Enabling internet
 1. 내나라 (NèNala/My Country) in english
 1. Removing the antivirus & spyware
+1. Enabling sudo
 1. Installing additional official packages
 1. Enabling other repositories
 1. Downloading RPM by hands
