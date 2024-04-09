@@ -212,3 +212,4 @@ as a normal user.
 	1.	[Article 1](https://richardg867.wordpress.com/2015/01/01/notes-on-red-star-os-3-0/)
 	2.	[Article 2](https://richardg867.wordpress.com/2020/03/31/more-notes-on-red-star-os-3-0/)
 - [@takeshixx](https://github.com/takeshixx/) for the [redstar-tools](https://github.com/takeshixx/redstar-tools/tree/master).
+- [@cylian914](https://github.com/cylian914) for the kernel update idea. 
