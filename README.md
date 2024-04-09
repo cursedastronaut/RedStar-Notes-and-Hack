@@ -176,6 +176,15 @@ You may see a lot of stuff such as development IDE, or compilers like GCC.
 Based on OpenOffice 3.0, the icons are from Microsoft Office 2003.
 This is the best place to notice the fonts "KP ...". These are standard DPRK fonts used everywhere.
 
+### Trash
+Trash location is `~/.local/share/Trash/files/`.
+I haven't looked around enough to find a way to
+permanently empty it through the GUI so I just run
+```sh
+rm ~/local/share/Trash/files/* -rf
+```
+as a normal user.
+
 # Credit
 - [@cursedastronaut](https://github.com/cursedastronaut/) for everything you haven't seen elsewhere.
 - [RichardG's Rambling](https://richardg867.wordpress.com/) for his two articles guiding beginners through the operating system
