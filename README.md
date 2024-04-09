@@ -122,7 +122,7 @@ Now, simply reboot (using the `reboot` command for instance).
 ## Installing another old version of Firefox
 I could only launch up to [Firefox 9.0](https://ftp.mozilla.org/pub/firefox/releases/9.0/linux-i686/)
 (although, lowest I tested above 9.0 was 29.0), because
-other version would give me a GTK error.
+other version would give me a GTK error, or a XPCOM loading failure error for 20 and above.
 
 I went on the [official Mozilla public repository](https://ftp.mozilla.org/pub/firefox/releases/), chose the Firefox version, and chose `linux-i686`.
 I then extracted it and directly launched the executable.
