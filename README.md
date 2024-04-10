@@ -21,6 +21,7 @@
 	- Trash
 	- GIMP
 	- UnBangUI
+	- SamTaeSong IDE
 ## Open the terminal
 1. Click on the Application folder on the right of the Dock (aside of the bin) «응용프로그람».
 1. Click on the folder without any icon ("AppLink", or «고전형프로그람»).
