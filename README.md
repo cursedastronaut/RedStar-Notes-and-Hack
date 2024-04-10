@@ -12,6 +12,7 @@
 1. Downloading RPM by hands
 1. Updating kernel
 1. Installing another old version of Firefox
+1. Edit your user icon
 1. Softwares
 	- File Manager
 	- Sogwang Office
@@ -138,6 +139,10 @@ I then extracted it and directly launched the executable.
 
 Firefox 9.0 has (mostly) proper SSL certificates, and it supports HTTPS. It sure is a more pleasant
 use of the internet than the outdated 내나라.
+
+## Edit your user icon
+Replace the file at `~/.[username].ico` by your new icon.
+It can be a PNG file.
 
 ## Softwares
 ### File Manager - KFinder
