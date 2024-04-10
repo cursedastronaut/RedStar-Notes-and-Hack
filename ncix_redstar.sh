@@ -5,7 +5,7 @@ VERSION="4.9.90-040990-generic"
 # Check if the script is run as root
 if [ "$(id -u)" -ne 0 ]; then
 	echo "This script must be run as root."
-	echo "Use the command [38;2;102;89;92mrootsetting[0m to get root access."
+	echo "Use the command [91mrootsetting[0m to get root access."
 	exit 1
 fi
 
@@ -49,7 +49,7 @@ if [ -e redstar-tools-master.zip ]; then
 	chmod +x redstar-tools-master/defuse.sh
 	redstar-tools-master/defuse.sh
 else
-	echo "Red Star tools can't be found ([38;2;102;89;92mredstar-tools-master.zip[0m)"
+	echo "Red Star tools can't be found ([91mredstar-tools-master.zip[0m)"
 	echo "Cannot remove spywares and antivirus."
 fi
 
@@ -83,7 +83,7 @@ if [ -e $VERSION.zip ]; then
 	sed -i "s@/boot/initrd-[[:alnum:].-]*@${escaped_initramfs_file}@".img /boot/grub/grub.conf
 
 else
-	echo "Kernel can't be found ([38;2;102;89;92m$VERSION.zip[0m)"
+	echo "Kernel can't be found ([91m$VERSION.zip[0m)"
 	echo "Cannot update kernel."
 fi
 
