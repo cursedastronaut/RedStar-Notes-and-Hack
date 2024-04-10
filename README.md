@@ -125,7 +125,12 @@ Download a more recent version of the kernel. I used the [4.9.90-040990-generic]
 **REMEMBER IT HAS TO SUPPORT EXT3**
 [Click here to find all kernels](https://kernel.ubuntu.com/mainline/)
 
-Extract the contents on your main machine (I don't think you can directly do it on 붉은별...).
+Extract the contents of any Debian package using the following commands:
+```sh
+ar -xv <package>
+xz -d data.tar.xz
+tar -xf data.tar
+```
 Now, using root, copy all folders to the root of your machine. (/linux-image-.../usr -> /usr, ect).
 
 Once that's done, run the following commands as root:
