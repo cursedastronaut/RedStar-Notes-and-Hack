@@ -8,7 +8,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # Warning part
-ecjp "@cursedastronaut on GitHub"
+echo "@cursedastronaut on GitHub"
 echo "This script MUST ONLY BE RAN ON [91mRedStar OS 3.0[0m"
 echo "I am NOT responsible anything this script can directly or indirectly cause"
 echo "The script will do the following:"
