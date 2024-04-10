@@ -141,7 +141,7 @@ Make a backup of the system as it may not boot if you fail these steps.
 
 Download a more recent version of the kernel. I used the [4.9.90-040990-generic](https://kernel.ubuntu.com/mainline/v4.9.90/linux-image-4.9.90-040990-generic_4.9.90-040990.201803250830_amd64.deb). You may choose another, but I decided to go with this one.
 
-**REMEMBER IT HAS TO SUPPORT EXT3**
+**Note::** If, during the installation, you selected another filesystem than `ext4`, make sure the new kernel supports the filesystem you chose.
 [Click here to find all kernels](https://kernel.ubuntu.com/mainline/)
 
 Extract the contents of any Debian package using the following commands:
