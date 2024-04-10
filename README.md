@@ -1,4 +1,7 @@
 # Summary
+1. Installation
+	- Setting it to english live
+	- Filesystems
 1. Open the terminal
 1. Set keyboard localization
 1. Get root access
@@ -22,6 +25,17 @@
 	- GIMP
 	- UnBangUI
 	- SamTaeSong IDE
+
+## Installation
+### Setting it to english live
+Press escape quickly after the boot. You should see a blinking cursor. Now, type `linux lang=en`. **Remember at this point, the system emulates a QWERTY keyboard**.
+
+### Filesystems
+While selecting your disk, you can launch the disk utility.
+It allows you to create more partitions, and will refuse
+altering a Windows bootloader partition in any sort of way.
+You can choose between `ext2`, `ext3`, or `ext4` (Other filesystem are said to be supported, but oh well).
+
 ## Open the terminal
 1. Click on the Application folder on the right of the Dock (aside of the bin) «응용프로그람».
 1. Click on the folder without any icon ("AppLink", or «고전형프로그람»).
