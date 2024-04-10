@@ -20,6 +20,7 @@
 	- Sogwang Office
 	- Trash
 	- GIMP
+	- UnBangUI
 ## Open the terminal
 1. Click on the Application folder on the right of the Dock (aside of the bin) «응용프로그람».
 1. Click on the folder without any icon ("AppLink", or «고전형프로그람»).
@@ -218,6 +219,23 @@ as a normal user.
 It's a recompiled version of GIMP 2.4.
 
 Note that the program's english version is still present.
+
+### CD/DVD Writer
+It's another KDE app, K3B.
+
+### 은방의 - UnBangUI
+It's a music score composer app. While I couldn't find its
+exact origins, I think it is a port of MuseScore 1, although
+the english translation is nowhere to be seen.
+There are sample songs, none of which are korean songs.
+
+If I say it looks like MuseScore 1, it's because of the similar UI,
+and functionalities, though I don't remember MuseScore ever
+using the SM2 format, which I know very little about.
+
+The default soundfont seems to be the same one used by Android 5.
+
+
 
 # Credit
 - [@cursedastronaut](https://github.com/cursedastronaut/) for everything you haven't seen elsewhere.
