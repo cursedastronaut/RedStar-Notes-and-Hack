@@ -235,7 +235,9 @@ using the SM2 format, which I know very little about.
 
 The default soundfont seems to be the same one used by Android 5.
 
-
+### 삼태성 - STS 3.0
+삼태성 (Samtaesong, that doesn't mean anything in english as far as I'm aware) is an IDE. It seems to be made for C/C++.
+It clearly is just KDevelop. KDevelop Assistant and KDevDesigner are also present.
 
 # Credit
 - [@cursedastronaut](https://github.com/cursedastronaut/) for everything you haven't seen elsewhere.
