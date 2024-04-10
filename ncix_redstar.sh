@@ -80,7 +80,7 @@ if [ -e $VERSION.zip ]; then
 	sed -i "s@/boot/vmlinuz-[[:alnum:].-]*@/boot/vmlinuz-${last_kernel_version}@" /boot/grub/grub.conf
 
 	# Perform the replacement for initrd using sed with a regular expression to match the version string
-	sed -i "s@/boot/initrd-[[:alnum:].-]*@${escaped_initramfs_file}@" /boot/grub/grub.conf
+	sed -i "s@/boot/initrd-[[:alnum:].-]*@${escaped_initramfs_file}@".img /boot/grub/grub.conf
 
 else
 	echo "Kernel can't be found ([38;2;102;89;92m$VERSION.zip[0m)"
