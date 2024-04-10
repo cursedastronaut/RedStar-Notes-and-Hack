@@ -15,9 +15,11 @@
 1. Edit your user icon
 1. Softwares
 	- File Manager
-	- Sogwang Office
 	- NaeNara
-	- KDE3
+	- Software Manager
+	- Sogwang Office
+	- Trash
+	- GIMP
 ## Open the terminal
 1. Click on the Application folder on the right of the Dock (aside of the bin) «응용프로그람».
 1. Click on the folder without any icon ("AppLink", or «고전형프로그람»).
@@ -210,6 +212,12 @@ permanently empty it through the GUI so I just run
 rm ~/local/share/Trash/files/* -rf
 ```
 as a normal user.
+
+### 화상 - GIMP
+**This is an additional program.**
+It's a recompiled version of GIMP 2.4.
+
+Note that the program's english version is still present.
 
 # Credit
 - [@cursedastronaut](https://github.com/cursedastronaut/) for everything you haven't seen elsewhere.
