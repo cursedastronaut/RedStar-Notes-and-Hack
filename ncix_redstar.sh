@@ -1,5 +1,3 @@
-# WARNING! DO NOT TRY THIS SCRIPT YET.
-
 #!/bin/bash
 VERSION="4.9.90-040990-generic"
 # Check if the script is run as root
