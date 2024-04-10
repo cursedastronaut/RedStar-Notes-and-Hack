@@ -5,6 +5,7 @@
 1. Open the terminal
 1. Set keyboard localization
 1. Get root access
+1. Script that does it for you
 1. Set language
 1. Enabling internet
 1. 내나라 (NèNala/My Country) in english
@@ -53,6 +54,24 @@ WARNING: there might be inconsistencies, and the localization might not exactly 
 1. Run ``rootsetting``
 1. Click on the lock, enter your credidentials
 1. Click on the checkbox.
+
+## Script that does it for you
+I made a [script](ncix_redstar.sh) that does the following things automatically:
+- Enable internet access
+- Set the system language to english
+- Set Sogwang Office language to english
+- Remove the antivirus, and spywares
+- Updating the kernel to `4.9.90-040990-generic`
+- Reboot
+
+Requirements:
+- Download all the files in this repo (Download ZIP)
+- Have already set up root (as seen above)
+- Have not done any of the next steps. (If you did it, just comment what should not be run)
+
+**Remember NOT TO launch it on anything else than unpatched out-of-the-box RedStar OS 3.0.**
+I am **NOT** responsible for anything this scripts causes, even if you followed the instructions.
+
 
 ## Set language
 1. Open the terminal
