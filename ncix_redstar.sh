@@ -53,22 +53,34 @@ else
 	echo "Cannot remove spywares and antivirus."
 fi
 
-if [ -e redstar-tools-master.zip ]; then
+if [ -e $VERSION.zip ]; then
 	unzip "$VERSION".zip
-	cp boot/* /boot/ -r
-	cp usr/* /usr/ -r
-	cp lib/* /lib/ -r
+	cp 4.9/boot/* /boot/ -r
+	cp 4.9/usr/* /usr/ -r
+	cp 4.9/lib/* /lib/ -r
+	echo "Generating /lib/modules/$VERSION/modules.dep..."
 	depmod -a $VERSION
+	echo "Generating /boot/initramfs-$VERSION.img"
 	dracut -f /boot/initramfs-$VERSION.img $VERSION
 
 	# Get the last kernel version from the file name
 	last_kernel=$(ls -v /boot/vmlinuz-* | tail -n1)
+	# Extract the version string after "vmlinuz-" using sed
+	last_kernel_version=$(echo "$last_kernel" | sed 's|.*/vmlinuz-\(.*\)|\1|')
+
+	# Get the corresponding initramfs file based on the kernel version
+	initramfs_file="/boot/initramfs-${last_kernel_version}"
 
 	# Escape special characters in the last kernel version
 	escaped_last_kernel=$(printf '%s\n' "$last_kernel" | sed 's/[\&/]/\\&/g')
+	# Escape special characters in the initramfs file path
+	escaped_initramfs_file=$(printf '%s\n' "$initramfs_file" | sed 's/[\&/]/\\&/g')
 
-	# Perform the replacement using sed
-	sed -i "s@/boot/vmlinuz-2.6@${escaped_last_kernel}@" /boot/grub/grub.conf
+	# Perform the replacement for vmlinuz using sed with a regular expression to match the version string
+	sed -i "s@/boot/vmlinuz-[[:alnum:].-]*@/boot/vmlinuz-${last_kernel_version}@" /boot/grub/grub.conf
+
+	# Perform the replacement for initrd using sed with a regular expression to match the version string
+	sed -i "s@/boot/initrd-[[:alnum:].-]*@${escaped_initramfs_file}@" /boot/grub/grub.conf
 
 else
 	echo "Kernel can't be found ([38;2;102;89;92m$VERSION.zip[0m)"
